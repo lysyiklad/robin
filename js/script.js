@@ -1,4 +1,4 @@
-alert('IIIII');
+
 const menu = document.querySelector('#navbar-default'); //.classList.toggle('visible');
 const btn = document.getElementById('btn');
 const header = document.querySelector('#hdr');
