@@ -6,11 +6,11 @@
     <title>TailwindCSS</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script defer>
-      function hiddenMenu() {
-        const menu = document.querySelector('#navbar-default');
-        menu.classList.toggle('left-full');
-        menu.classList.toggle('left-0');
-      }
+      // function hiddenMenu() {
+      //   const menu = document.querySelector('#navbar-default');
+      //   menu.classList.toggle('left-full');
+      //   menu.classList.toggle('left-0');
+      // }
     </script>
   </head>
   <body class="font-sen text-[18px] bg-black">
@@ -30,27 +30,27 @@
           <ul class="h-full flex flex-col md:flex-row items-center">
             <li
               id="btn-hdr-1"
-              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]"
+              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6] cursor-pointer"
             >
-              <a onclick="hiddenMenu()" href="#experience">Experience</a>
+              Experience
             </li>
             <li
               id="btn-hdr-2"
-              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]"
+              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6] cursor-pointer"
             >
-              <a onclick="hiddenMenu()" href="#work">Work</a>
+              Work
             </li>
             <li
               id="btn-hdr-3"
-              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]"
+              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6] cursor-pointer"
             >
-              <a onclick="hiddenMenu()" href="#photography">Photography</a>
+              Photography
             </li>
             <li
               id="btn-hdr-4"
-              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]"
+              class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6] cursor-pointer"
             >
-              <a onclick="hiddenMenu()" href="#Contact">Contact</a>
+              Contact
             </li>
           </ul>
         </div>
@@ -95,7 +95,7 @@
         </div>
       </section>
       <!-- HERO SECTION -->
-
+      <div class="xl:h-32 w-full"></div>
       <!-- WORK EXPERIENCE -->
       <section
         id="experience"
@@ -236,8 +236,8 @@
       <!-- Icons -->
 
       <!-- MY PROJECTS -->
-      <section id="work" class="container mx-auto bg-black text-white">
-        <div class="px-5 pt-16 md:pt-20 2xl:pt-30 md:flex md:gap-x-6">
+      <section class="container mx-auto bg-black text-white">
+        <div id="work" class="px-5 pt-16 md:pt-20 2xl:pt-30 md:flex md:gap-x-6">
           <div class="basis-1/2">
             <div class="">
               <p class="text-[#8491A0]">MY PROJECTS</p>
@@ -494,6 +494,7 @@
         </div>
       </section>
       <!-- Photography -->
+      <div class="md:h-44 w-full h-full"></div>
       <!-- Forma -->
       <section id="Contact" class="container mx-auto bg-black text-white px-5 2xl:px-[182px]">
         <div class="grid md:grid-cols-2 gap-6">

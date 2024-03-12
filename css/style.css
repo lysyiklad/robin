@@ -709,6 +709,10 @@ h3{
   margin-bottom: 1.25rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -719,10 +723,6 @@ h3{
 
 .mt-2{
   margin-top: 0.5rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .block{
@@ -769,8 +769,8 @@ h3{
   height: 420px;
 }
 
-.h-\[48px\]{
-  height: 48px;
+.h-\[60px\]{
+  height: 60px;
 }
 
 .h-\[75px\]{
@@ -779,14 +779,6 @@ h3{
 
 .h-full{
   height: 100%;
-}
-
-.h-\[50px\]{
-  height: 50px;
-}
-
-.h-\[60px\]{
-  height: 60px;
 }
 
 .max-h-96{
@@ -805,16 +797,12 @@ h3{
   width: 2rem;
 }
 
-.w-\[196px\]{
-  width: 196px;
+.w-\[140px\]{
+  width: 140px;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-\[140px\]{
-  width: 140px;
 }
 
 .max-w-\[550px\]{
@@ -841,24 +829,12 @@ h3{
   resize: vertical;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-\[1fr_200px_200px\]{
-  grid-template-columns: 1fr 200px 200px;
-}
-
-.grid-cols-\[1fr_130px_130px\]{
-  grid-template-columns: 1fr 130px 130px;
-}
-
-.grid-cols-\[1fr_140px_140px\]{
-  grid-template-columns: 1fr 140px 140px;
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-rows-3{
@@ -1335,6 +1311,14 @@ h3{
     height: 100%;
   }
 
+  .md\:h-32{
+    height: 8rem;
+  }
+
+  .md\:h-44{
+    height: 11rem;
+  }
+
   .md\:max-h-full{
     max-height: 100%;
   }
@@ -1392,10 +1376,6 @@ h3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-\[1fr_200px_200px\]{
-    grid-template-columns: 1fr 200px 200px;
-  }
-
   .md\:grid-cols-\[1fr_140px_140px\]{
     grid-template-columns: 1fr 140px 140px;
   }
@@ -1431,11 +1411,6 @@ h3{
     padding-right: 2.5rem;
   }
 
-  .md\:px-\[72px\]{
-    padding-left: 72px;
-    padding-right: 72px;
-  }
-
   .md\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1468,6 +1443,10 @@ h3{
 
   .md\:pt-\[67px\]{
     padding-top: 67px;
+  }
+
+  .md\:pt-32{
+    padding-top: 8rem;
   }
 
   .md\:after\:block::after{
@@ -1513,6 +1492,10 @@ h3{
 }
 
 @media (min-width: 1280px){
+  .xl\:h-32{
+    height: 8rem;
+  }
+
   .xl\:h-\[140px\]{
     height: 140px;
   }
