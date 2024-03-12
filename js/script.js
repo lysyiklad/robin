@@ -34,10 +34,10 @@ if (window.scrollY > heightHeader) {
 
 window.addEventListener('scroll', function () {
   if (window.scrollY > heightHeader && !flagScroolHeader) {
-    header.classList.remove('md:bg-transparent');
+    header.classList.remove('bg-transparent');
     flagScroolHeader = true;
   } else if (window.scrollY <= heightHeader) {
-    header.classList.add('md:bg-transparent');
+    header.classList.add('bg-transparent');
     flagScroolHeader = false;
   }
 });
