@@ -1,0 +1,397 @@
+<body class="font-sen text-[18px] bg-black">
+  <!-- Header -->
+  <div class="fixed w-full z-20">
+    <header
+      id="hdr"
+      class="container mx-auto px-[40px] lg:px-[72px] h-20 flex justify-between items-center text-white bg-black md:bg-transparent transition-all duration-500"
+    >
+      <a href="#">
+        <img src="./img/logo.svg" width="78px" height="24px" alt="logo" />
+      </a>
+      <div
+        id="navbar-default"
+        class="absolute left-full top-20 pb-5 md:pb-0 bg-black w-full md:h-full md:w-auto md:static md:top-0 md:bg-transparent transition-[left] duration-500"
+      >
+        <ul class="h-full flex flex-col md:flex-row items-center">
+          <li class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]">
+            <a href="#">Experience</a>
+          </li>
+          <li class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]">
+            <a href="#">Work</a>
+          </li>
+          <li class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]">
+            <a class="" href="#">Photography</a>
+          </li>
+          <li class="py-3 md:py-0 px-3 lg:px-6 flex items-center h-full hover:bg-[#5221E6]">
+            <a class="" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="md:hidden h-full flex justify-center items-center hover:bg-[#5221E6] cursor-pointer"
+        id="btn"
+      >
+        <div class="px-6 space-y-2">
+          <span class="block w-8 h-0.5 bg-white"></span>
+          <span class="block w-5 h-0.5 bg-white"></span>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- HEADER -->
+  <main>
+    <!-- HERO SECTION -->
+    <section>
+      <div
+        class="relative container mx-auto bg-black text-white md:py-20 after:hidden md:after:block after:bg-[#181823] after:absolute after:z-0 after:-top-24 after:left-[38%] after:bottom-0 after:right-0"
+      >
+        <div class="md:flex justify-center items-center">
+          <picture class="md:grow-0 md:shrink md:basis-[45%] z-10">
+            <!-- <source media="(min-width: 769px)" srcset="./img/Rectangle37.jpg" /> -->
+            <img
+              class="md:h-[650px] md:object-cover md:block md:max-w-full md:max-h-full"
+              src="./img/Rectangle37.jpg"
+              width="750px"
+              height="650px"
+              loading="lazy"
+              alt=""
+            />
+          </picture>
+          <div class="py-12 px-5 md:grow-0 md:shrink md:basis-[55%] md:-translate-x-[66px] z-10">
+            <h1>I’m Robin Williams. A Product Designer based in Italy.</h1>
+            <p class="py-4">
+              I’m probably the most passionate designer you will ever get to work with. If you have
+              a great project that needs some amazing skills, I’m your guy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO SECTION -->
+
+    <!-- WORK EXPERIENCE -->
+    <section
+      class="px-5 pb-12 md:px-10 container mx-auto bg-black text-[#8491A0] 2xl:px-[72px] 2xl:pt-32"
+    >
+      <p>WORK EXPERIENCE</p>
+      <h2 class="text-white lg:leading-[66px] lg:max-w-[690px]">
+        Companies I have worked for in the past
+      </h2>
+      <ul class="md:flex md:gap-6">
+        <li class="md:w-1/3 md:mb-32">
+          <p class="text-[117px] text-[#8491A0]">01</p>
+          <h3 class="text-white">
+            <span class="text-green-600">Google</span>, Interaction Designer
+          </h3>
+          <p class="leading-6 pt-6">
+            I currently am the lead designer on the interaction design team for Google Play.
+          </p>
+        </li>
+        <li class="md:w-1/3 md:mb-32">
+          <p class="text-[117px] text-[#8491A0]">02</p>
+          <h3 class="text-white"><span class="text-green-600">Facebook</span>, Product Designer</h3>
+          <p class="leading-6 pt-6">
+            I’ve worked on a wide variety of internal tools for facebook over the past 6 years.
+          </p>
+        </li>
+        <li class="md:w-1/3 md:mb-32">
+          <p class="text-[117px] text-[#8491A0]">03</p>
+          <h3 class="text-white"><span class="text-green-600">Dribbble</span>, Graphic Designer</h3>
+          <p class="leading-6 pt-6">
+            I started my design career with Dribbble. I was incharge of creating illustrations for
+            the platform.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <!-- WORK EXPERIENCE -->
+
+    <!-- Philosophy -->
+    <section class="container mx-auto bg-[#FFF3E4] text-[#181823]">
+      <div class="grid md:grid-cols-2 lg:gap-20">
+        <div class="px-5 md:px-10 2xl:px-16">
+          <h2 class="pt-12 md:pt-20 2xl:pt-32">Philosophy & values</h2>
+          <p class="pt-6">
+            I think everyone wants the same thing - relationship with humanity, peace with the
+            metaphysical, and experience with the universe. I try to grasp these things with my
+            values: authenticity, creativity, & hospitality.
+          </p>
+          <a class="inline-block pt-[91px] md:pt-[67px] 2xl-[134px] pb-[51px]" href="#"
+            >More about me</a
+          >
+        </div>
+        <picture>
+          <img class="h-full object-cover" src="./img/Rectangle 39.jpg" alt="" />
+        </picture>
+      </div>
+    </section>
+    <!-- Philosophy -->
+
+    <!-- Skillset -->
+    <section class="container mx-auto bg-black text-white">
+      <div class="px-5 md:px-10 py-16 lg:flex gap-12">
+        <div class="py-8 basis-[416px] shrink-0">
+          <h2>Skillset</h2>
+          <p class="pt-4 text-gray-400">
+            With skills in over 4 different fields of design, I am the perfect person to hire when
+            it comes to a full fledged project. Whatever your needs are, I can pretty much take on
+            any challenge.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2">
+          <div class="py-6 md:pr-10">
+            <img src="./img/icon4.svg" alt="" />
+            <h3 class="pt-6">Product Design</h3>
+            <p class="pt-3 text-gray-400">
+              Working at Facebook has taught me a lot about how to understand users, solve problems
+              and build great products.
+            </p>
+          </div>
+          <div class="py-6 md:pr-10">
+            <img src="./img/icon3.svg" alt="" />
+            <h3 class="pt-6">Product Design</h3>
+            <p class="pt-3 text-gray-400">
+              Working at Facebook has taught me a lot about how to understand users, solve problems
+              and build great products.
+            </p>
+          </div>
+          <div class="py-6 md:pr-10">
+            <img src="./img/icon1.svg" alt="" />
+            <h3 class="pt-6">Product Design</h3>
+            <p class="pt-3 text-gray-400">
+              Working at Facebook has taught me a lot about how to understand users, solve problems
+              and build great products.
+            </p>
+          </div>
+          <div class="py-6 md:pr-10">
+            <img src="./img/icon2.svg" alt="" />
+            <h3 class="pt-6">Product Design</h3>
+            <p class="pt-3 text-gray-400">
+              Working at Facebook has taught me a lot about how to understand users, solve problems
+              and build great products.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skillset -->
+
+    <!-- Icons -->
+    <section class="container mx-auto bg-black text-white">
+      <div
+        class="grid grid-cols-2 grid-rows-3 h-[420px] md:grid-cols-3 md:grid-rows-2 md:h-[280px] xl:grid-cols-6 xl:grid-rows-1 xl:h-[140px] w-full"
+      >
+        <div class="flex items-center justify-center border-[#181823] border-[1px]">
+          <img class="" src="./img/Group 60.svg" alt="image" />
+        </div>
+        <div class="flex items-center justify-center border-[#181823] border-[1px]">
+          <img class="" src="./img/Group 67.svg" alt="image" />
+        </div>
+        <div class="flex items-center justify-center border-[#181823] border-[1px]">
+          <img class="" src="./img/Group 68.svg" alt="image" />
+        </div>
+        <div class="flex items-center justify-center border-[#181823] border-[1px]">
+          <img class="" src="./img/Group 80.svg" alt="image" />
+        </div>
+        <div class="flex items-center justify-center border-[#181823] border-[1px]">
+          <img class="" src="./img/Group 80.svg" alt="image" />
+        </div>
+        <div class="flex items-center justify-center border-[#181823] border-[1px]">
+          <img class="" src="./img/Group 80.svg" alt="image" />
+        </div>
+      </div>
+    </section>
+    <!-- Icons -->
+
+    <!-- MY PROJECTS -->
+    <section class="container mx-auto bg-black text-white">
+      <div class="px-5 pt-16 md:pt-20 2xl:pt-30 md:flex md:gap-x-6">
+        <div class="basis-1/2">
+          <div class="">
+            <p class="text-[#8491A0]">MY PROJECTS</p>
+            <h2 class="text-white pt-2 pb-8">Work that I’ve done for the past 8 years</h2>
+          </div>
+          <!-- Card -->
+          <div class="pt-12 w-full">
+            <img class="w-full h-full object-cover" src="./img/Rectangle 41.jpg" alt="41" />
+            <div class="bg-[#181823] px-8 py-10">
+              <h3>Restaurant Website Design</h3>
+              <p class="text-[#8491A0] pt-4">
+                I worked with the guys at CBRE to redesign their entire website and mobile app fro
+                both Android and iOS. This project lasted for 4 months and was a very challenging
+                one.
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="pt-12">
+            <img class="w-full h-full object-cover" src="./img/Rectangle 42.jpg" alt="41" />
+            <div class="bg-[#181823] px-8 py-10">
+              <h3>Restaurant Website Design</h3>
+              <p class="text-[#8491A0] pt-4">
+                I worked with the guys at CBRE to redesign their entire website and mobile app fro
+                both Android and iOS. This project lasted for 4 months and was a very challenging
+                one.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="basis-1/2">
+          <!-- Card -->
+          <div class="pt-12">
+            <img class="w-full h-full object-cover" src="./img/Rectangle 43.jpg" alt="41" />
+            <div class="bg-[#181823] px-8 py-10">
+              <h3>Restaurant Website Design</h3>
+              <p class="text-[#8491A0] pt-4">
+                I worked with the guys at CBRE to redesign their entire website and mobile app fro
+                both Android and iOS. This project lasted for 4 months and was a very challenging
+                one.
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="pt-12">
+            <img class="w-full h-full object-cover" src="./img/Rectangle 44.jpg" alt="41" />
+            <div class="bg-[#181823] px-8 py-10">
+              <h3>Restaurant Website Design</h3>
+              <p class="text-[#8491A0] pt-4">
+                I worked with the guys at CBRE to redesign their entire website and mobile app fro
+                both Android and iOS. This project lasted for 4 months and was a very challenging
+                one.
+              </p>
+            </div>
+          </div>
+          <div class="py-[91px] flex justify-center items-center">
+            <a class="inline-block border-2 border-purple-700 px-8 py-6" href="#"
+              >VIEW ALL PROJECTS</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MY PROJECTS -->
+
+    <!-- Instagram -->
+    <section class="container mx-auto bg-white text-[#181823]">
+      <div class="grid md:grid-cols-2 lg:gap-20">
+        <div class="px-5 md:px-10 2xl:px-16">
+          <h2 class="pt-12 md:pt-20 2xl:pt-32">Instagram</h2>
+          <p class="pt-6">
+            If you area a person who enjoys photography, then I highly recommend that you check out
+            my Instagram. I’m an avid traveller and I capture the best moments that I would love to
+            cherish with the world
+          </p>
+          <a class="inline-block pt-[91px] md:pt-[67px] 2xl-[134px] pb-[51px]" href="#"
+            >Follow me on IG</a
+          >
+        </div>
+        <picture>
+          <img class="h-full object-cover" src="./img/Rectangle 39.jpg" alt="" />
+        </picture>
+      </div>
+    </section>
+    <!-- Instagram -->
+
+    <!-- Dribbble -->
+    <section class="container mx-auto bg-black text-white">
+      <div class="px-5 pt-16">
+        <div>
+          <div class="text-[56px] leading-[67px] font-bold">Dribbble</div>
+          <p class="text-[#8491A0] pt-6">
+            Each dribbble shot is made with love and care. Do check out my work on Dribbble. Likes
+            and comments are appreciated.
+          </p>
+          <a class="inline-block pt-10 pb-[104px] md:pb-[160px]" href="#">Follow me on IG</a>
+        </div>
+        <div class="">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./img/Rectangle46md.png" />
+            <source media="(min-width: 1440px)" srcset="./img/Rectangle462xl.png" />
+            <img
+              class="w-full h-full object-cover"
+              src="./img/Rectangle46.png"
+              alt="Lots of cakes"
+            />
+          </picture>
+          <picture>
+            <source media="(min-width: 768px)" srcset="./img/Rectangle42md.png" />
+            <source media="(min-width: 1440px)" srcset="./img/Rectangle422xl.jpg" />
+            <img
+              class="w-full h-full object-cover"
+              src="./img/Rectangle42.png"
+              alt="Lots of cakes"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- Dribbble -->
+
+    <!-- people say about me -->
+    <section class="container mx-auto bg-black text-white">
+      <div class="w-full px-5 md:flex gap-14">
+        <div class="md:w-1/2">
+          <h2 class="pt-12">This is what people say about me</h2>
+          <p class="text-[#8491A0] pt-4">
+            Here are a few lines from people who I have worked with over the past 8+ years in my
+            design career.
+          </p>
+          <a class="inline-block text-[1rem] pt-10 pb-[68px]" href="#">See all testimonials</a>
+        </div>
+        <div class="md:w-1/2">
+          <!-- Card -->
+          <div class="border-gray-800 border-2">
+            <img
+              class="inline-block object-cover scale-200"
+              src="./img/Rectangle 45.jpg"
+              alt="41"
+            />
+            <div class="p-8">
+              <p class="text-2xl">
+                &#8220;Robin is one of the best designers I have worked with in my entire life. He
+                is a designer who is very capable of taking up complex projects and delivers
+                impeccable design.&#8220;
+              </p>
+              <div class="text-lg text-[#8491A0] pt-16">
+                <p class="font-bold">Richard Owens</p>
+                <p>CEO, Company 1</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="border-gray-800 border-2">
+            <img src="./img/Rectangle 46.jpg" alt="41" />
+            <div class="p-8">
+              <p class="text-2xl">
+                &#8220;I think Robin has an incredible gift. It has been an absolute pleasure to
+                work with a designer of this caliber.&#8220;
+              </p>
+              <div class="text-lg text-[#8491A0] pt-16">
+                <p class="font-bold">Richard Owens</p>
+                <p>CEO, Company 1</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="border-gray-800 border-2">
+            <img src="./img/Rectangle 47.jpg" alt="41" />
+            <div class="p-8">
+              <p class="text-2xl">
+                &#8220;Robin is one of the best designers I have worked with in my entire life. He
+                is a designer who is very capable of taking up complex projects and delivers
+                impeccable design.&#8220;
+              </p>
+              <div class="text-lg text-[#8491A0] pt-16">
+                <p class="font-bold">Richard Owens</p>
+                <p>CEO, Company 1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- people say about me -->
+  </main>
+  <script defer src="./js/script.js"></script>
+</body>

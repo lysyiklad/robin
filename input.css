@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sen:wght@400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .header {
+    @apply container mx-auto px-[40px] lg:px-[72px] h-20 flex justify-between items-center text-white bg-black md:bg-transparent;
+  } */
+
+  /* .item_menu {
+    @apply block 
+    py-2 
+    px-3 
+    text-gray-900 
+    rounded 
+    hover:bg-gray-100 
+    md:hover:bg-transparent 
+    md:border-0 
+    md:hover:text-blue-700 
+    md:p-0 
+    dark:text-white 
+    md:dark:hover:text-blue-500 
+    dark:hover:bg-gray-700 
+    dark:hover:text-white 
+    md:dark:hover:bg-transparent;
+  }
+
+  .items_menu {
+    @apply font-medium 
+    flex 
+    flex-col 
+    p-4 
+    md:p-0 
+    mt-4 
+    border 
+    border-gray-100 
+    rounded-lg 
+    bg-gray-50 
+    md:flex-row 
+    md:space-x-8 
+    rtl:space-x-reverse 
+    md:mt-0 
+    md:border-0 
+    md:bg-white 
+    dark:bg-black 
+    md:dark:bg-gray-900 
+    dark:border-gray-700;
+  } */
+}
+
+@layer base {
+  h1 {
+    /* font-size: 78px; */
+    /* font-size: calc(32px + (78 - 32) * ((100vw - 0px) / (1440 + 360))); */
+    /* font-weight: bold; */
+    @apply font-bold 
+    text-[32px] leading-[38px] 
+    md:text-[56px] md:leading-[68px] 
+    2xl:text-[78px] 2xl:leading-[94px];
+  }
+  h2 {
+    @apply font-bold
+    text-[32px] leading-[38px] 
+    md:text-[56px] md:leading-[68px];
+  }
+  h3 {
+    @apply text-2xl font-bold;
+  }
+  /* ... */
+}
